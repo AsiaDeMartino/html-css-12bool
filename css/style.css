@@ -1,0 +1,16 @@
+*{
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
+
+[class*="col-"] {
+    background-color: rgb(6, 81, 248);
+    padding: 10px;
+    border: 1px solid white;
+}
+
+.green {
+    background-color: rgb(28,224,82);
+    border: 1px solid rgb(6, 81, 248);
+}

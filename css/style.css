@@ -10,7 +10,24 @@
     border: 1px solid white;
 }
 
+h1{
+    color: black;
+    text-align: left;
+}
+
+.margin{
+    margin-bottom: 20px;
+}
+
 .green {
     background-color: rgb(28,224,82);
     border: 1px solid rgb(6, 81, 248);
+}
+
+/* DEBUG */
+
+.debug [class="col"]{
+    background-color: aquamarine;
+    padding: 20px;
+    border: 2px dotted black;
 }

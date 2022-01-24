@@ -128,10 +128,3 @@
 
 
 
-/* DEBUG */
-
-.debug [class="col"]{
-    background-color: aquamarine;
-    padding: 20px;
-    border: 2px dotted black;
-}

@@ -15,6 +15,12 @@ h1{
     text-align: left;
 }
 
+h2 {
+    color: black;
+    text-align: left;
+    font-size: 10px;
+}
+
 .margin{
     margin-bottom: 20px;
 }
@@ -38,6 +44,14 @@ h1{
 
 .justify-end{
     justify-content: flex-end;
+}
+
+.justify-around{
+    justify-content: space-around;
+}
+
+.justify-between {
+    justify-content: space-between;
 }
 
 .align-start{

@@ -1,0 +1,55 @@
+.container-lg{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 100px 50px;
+}
+
+.container{
+    width: 33%;
+    animation: heart 3s ease 0s infinite normal forwards;
+}
+
+.container:hover .red{
+    background-color: gray;
+}
+
+.black{
+    background-color: black;
+}
+
+.red{
+    background-color: red;
+}
+
+[class*="col"] {
+    padding: 20px 0;
+}
+
+@keyframes heart {
+    0% {
+      animation-timing-function: ease-out;
+      transform: scale(1);
+      transform-origin: center center;
+    }
+  
+    10% {
+      animation-timing-function: ease-in;
+      transform: scale(0.91);
+    }
+  
+    17% {
+      animation-timing-function: ease-out;
+      transform: scale(0.98);
+    }
+  
+    33% {
+      animation-timing-function: ease-in;
+      transform: scale(0.87);
+    }
+  
+    45% {
+      animation-timing-function: ease-out;
+      transform: scale(1);
+    }
+  }
